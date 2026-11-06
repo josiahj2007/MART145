@@ -33,3 +33,35 @@ img {
 li {
     margin-bottom: 10px;
 }
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: #394536;
+    padding: 10px;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar a {
+    display: inline-block;
+    color: white;
+    background-color: #52644a;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #d5b56d;
+    color: #202420;
+}
