@@ -1,0 +1,98 @@
+
+/* Main Page Styling */
+
+body {
+    background-color: #202420;
+    color: white;
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    line-height: 1.6;
+}
+
+/* Header */
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid #d5b56d;
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #d5b56d;
+    font-size: 42px;
+}
+
+h2 {
+    color: #a6b48b;
+    font-size: 28px;
+}
+
+/* About Me Section */
+
+.aboutme {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.aboutme img {
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #d5b56d;
+    border-radius: 15px;
+}
+
+.aboutme p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+/* Projects Section */
+
+.projects {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.projects ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects li {
+    background-color: #394536;
+    border: 2px solid #d5b56d;
+    border-radius: 12px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.projects a {
+    color: #e4c37d;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.projects p {
+    font-size: 16px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    border-top: 1px solid #52644a;
+    margin-top: 60px;
+    padding-top: 20px;
+    color: #aaaaaa;
+    font-size: 14px;
+}
